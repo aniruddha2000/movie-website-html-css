@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(180, 124, 40);
+}
+h1{
+    font-family: vardana;
+    font-size: 200%;
+}
+p{
+    font-family: courier;
+    font-size: 100%;
+    margin: 50px;
+}
+a {
+    text-decoration: underline;
+}
+img{
+    width: 100%;
+}
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 5px;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: #d89a16;
+    font-weight: normal;
+}
+tr:first-child, td:first-child {
+    font-weight: 1200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+caption{
+    font-family: monospace;
+    font-size: 120%;
+}
+button{
+    background-color: #2C3335;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+form.example button{
+    background: rgb(22, 123, 190);
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    width: 10%;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+form.example input{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 20%;
+    position: absolute;
+    top: 12px;
+    right: 92px;
+}
